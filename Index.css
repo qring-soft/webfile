@@ -1,0 +1,37 @@
+body {
+    /* background-image: url("images/bg.jpg"); */
+    background-color: pink;
+}
+h1 {
+    font-size : 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin : 0;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.css-c {
+    display: block;
+    margin: 0px auto;
+    height: 43px;
+    width: 150px;
+    border : 5px solid white;
+    border-radius: 13px;
+    line-height: 45px;
+}
+
+.js-form {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form{
+    display: none;
+} 
+
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
