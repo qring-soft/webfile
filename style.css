@@ -228,10 +228,3 @@ li button{
     color: white;
     font-family: 'Nanum Myeongjo', serif;
 }
-
-@media (min-width : 900px) {
-    .js-toDoList {
-        position: relative;
-        right: 15px;
-        width: 99%;
-}
