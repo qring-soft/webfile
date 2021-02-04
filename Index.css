@@ -1,0 +1,230 @@
+body {
+    /* background-image: url("images/bg.jpg"); */
+    background-color: pink;
+}
+h1 {
+    font-size : 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin : 0;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.css-c {
+    display: block;
+    margin: 20px auto 0 auto;
+    height: 43px;
+    width: 150px;
+    border : 5px solid white;
+    border-radius: 13px;
+    line-height: 45px;
+}
+
+.js-form {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form {
+    display: none;
+    text-align: center;
+    margin-top: 10px;    
+}
+
+.form input {
+    border-radius: 6px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', 'Noto Sans KR', cursive;
+}
+
+.form input:hover {
+    box-shadow: 1px 5px 5px 1px gray;
+}
+
+.greetings {
+    display: none;
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Big Shoulders Display', 'Noto Sans KR', cursive;
+}
+
+.showing {
+    display: block;
+}
+
+.js-toDoForm {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.js-toDoForm input {
+    border-radius: 6px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', 'Noto Sans KR', cursive;
+}
+.js-toDoForm input:hover {
+    box-shadow: 1px 5px 5px 1px gray;
+}
+.js-toDoList {
+    margin-top : 100px;
+    margin-left :auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 90%;
+}
+
+li span {
+    display: block;
+    width: 250px;
+    height: 250px;
+    position:relative;
+    left: 20px;
+    top: 80px;
+    border-radius: 400px;
+    overflow: hidden;
+    vertical-align: bottom;
+    font-family: 'Big Shoulders Display', 'Noto Sans KR', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 250px;
+    white-space: pre;
+}
+
+li button{
+    border: 2px solid pink;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 134px;
+    margin-top: 130px;
+}
+
+.image0 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image1 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image2 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image3 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image4 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image5 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/6.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image6 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image7 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/8.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image8 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/9.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image9 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/10.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+.image10 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    list-style-type: none;
+    background-image: url("images/11.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 320px;
+}
+
+.js-weather {
+    display: block;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+}
